@@ -1,7 +1,10 @@
+import Button from "@/components/Button";
+
 export default function Home() {
   return (
-    <div style={{ padding: 40, fontSize: 28 }}>
-      intiZOM project — Home Page
+    <div className="p-10">
+      <h1 className="text-3xl font-bold mb-4"> intiZOM </h1>
+      <Button>Test Button</Button>
     </div>
-  )
+  );
 }
